@@ -1,0 +1,47 @@
+// Rich UI for creating a button that takes you to a link when pressed
+{
+	"richContent": [
+		{
+		"type": "button",
+		"text": "Take me to Google Maps",
+		"link": "https://www.google.com/maps/?cid=3428512942074845864"
+		}
+	]
+  ]
+}
+
+// Rich UI for displaying an image
+{
+	"richContent": [
+		{
+		"type": "image",
+		"rawUrl": "https://i.imgur.com/Q14Rjug.png"
+		}
+	]
+  ]
+}
+
+// Rich UI for creating buttons that make the user type text when pressed
+{
+  "richContent": [
+    [
+      {
+        "type": "chips",
+        "options": [
+          {
+            "text": "Appetizers"
+          },
+          {
+            "text": "Entrees"
+          },
+          {
+            "text": "Alcoholic Beverages"
+          },
+          {
+            "text": "Non-Alcoholic Beverages"
+          }
+        ]
+      }
+    ]
+  ]
+}
